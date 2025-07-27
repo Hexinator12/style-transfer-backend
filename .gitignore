@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+.env
+uploads/
+outputs/
+venv/
+__pycache__/
+*.pyc
+.env
+uploads/
+outputs/
+*.pth
+*.bin
+*.pt
+*.pkl
+*.h5
