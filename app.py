@@ -7,7 +7,9 @@ from werkzeug.utils import secure_filename
 import torch
 from PIL import Image
 import io
-import base64
+
+os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'max_split_size_mb:512'
+os.environ['OMP_NUM_THREADS'] = '1'import base64
 
 # Import style transfer utilities
 from utils.style_transfer import StyleTransfer
